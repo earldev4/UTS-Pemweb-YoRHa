@@ -1,0 +1,73 @@
+body{
+    font-family: "Agdasima", sans-serif;
+    font-size: 1.5rem;
+    color: #454138;
+    background-color: #d1cdb7;
+    -webkit-background-size: 0.3rem 0.3rem;
+    background-size: 0.3rem 0.3rem;
+    background-image: -webkit-linear-gradient(left, #ccc8b1 1px, rgba(204, 200, 177, 0) 1px), -webkit-linear-gradient(top, #ccc8b1 1px, rgba(204, 200, 177, 0) 1px);
+    box-sizing: border-box;
+}
+.navbar{
+    height: 80px;
+    border: solid #454138;
+    border-width: 0.1rem 0;
+    transition: all 0.5s ease;
+}
+.navbar .container-fluid .navbar-brand span{
+    letter-spacing: 10px;
+    color: #454138;
+}
+.navbar .container-fluid span{
+    letter-spacing: 5px;
+}
+.navbar-scrolled{
+    background-color: rgb(209, 205, 183);
+}
+.text-justify{
+    text-align: justify;
+}
+section .row .side-bar{
+    border: solid #454138;
+    border-width: 0 0.1rem 0.1rem 0;
+}
+section .row .side-bar a{
+    border: solid #454138;
+    border-width: 0 0 0.1rem 0;
+    color: #454138;
+    transition: all 0.2s ease;
+}
+section .row .side-bar a:last-child{
+    border: none;
+}
+section .row .side-bar a:hover{
+    color: #c0bcb1;
+}
+section .row .registration-form table thead{
+    border: solid #454138;
+    border-width: 0.1rem 0 ; 
+}
+section .row .table-section table tbody tr:nth-child(odd){
+    background-color: rgba(175, 174, 165, 0.75);
+}
+footer .container{
+    border: solid #454138;
+    border-width: 0.1rem 0 ;
+}
+footer .row .right-footer a{
+    color: #454138;
+    transition: all 0.2s ease;
+}
+footer .row .right-footer a:hover{
+    color: #c0bcb1;
+}
+@media only screen and (max-width: 768px){
+    section .row .table-section table{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 470px){
+    section .row .table-section table{
+        font-size: 11px;
+    }
+} 

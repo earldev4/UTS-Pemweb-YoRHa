@@ -1,0 +1,76 @@
+body{
+    font-family: "Agdasima", sans-serif;
+    font-size: 1.5rem;
+    color: #454138;
+    background-color: #d1cdb7;
+    -webkit-background-size: 0.3rem 0.3rem;
+    background-size: 0.3rem 0.3rem;
+    background-image: -webkit-linear-gradient(left, #ccc8b1 1px, rgba(204, 200, 177, 0) 1px), -webkit-linear-gradient(top, #ccc8b1 1px, rgba(204, 200, 177, 0) 1px);
+    box-sizing: border-box;
+}
+.navbar{
+    height: 80px;
+    border: solid #454138;
+    border-width: 0.1rem 0;
+    transition: all 0.5s ease;
+}
+.navbar .container-fluid .navbar-brand span{
+    letter-spacing: 10px;
+    color: #454138;
+}
+.navbar .container-fluid span{
+    letter-spacing: 5px;
+}
+.navbar-scrolled{
+    background-color: rgb(209, 205, 183);
+}
+.text-justify{
+    text-align: justify;
+}
+section .row .side-bar{
+    border: solid #454138;
+    border-width: 0 0.1rem 0.1rem 0;
+}
+section .row .side-bar a{
+    border: solid #454138;
+    border-width: 0 0 0.1rem 0;
+    color: #454138;
+    transition: all 0.2s ease;
+}
+section .row .side-bar a:last-child{
+    border: none;
+}
+section .row .side-bar a:hover{
+    color: #c0bcb1;
+}
+section .row .registration-form .row form div input{
+    background-color: rgb(209, 205, 183);
+    border: solid #454138;
+    border-width: 0.1rem;
+}
+section .row .registration-form .row form div select{
+    background-color: rgb(209, 205, 183);
+    border: solid #454138;
+    border-width: 0.1rem;
+}
+section .row .registration-form .row form button{
+    background-color: rgb(209, 205, 183);
+    border: solid #454138;
+    border-width: 0.1rem;
+    transition: all 0.2s ease;
+}
+section .row .registration-form .row form button:hover{
+    background-color: #454138;
+    color: rgb(209, 205, 183);
+}
+footer .container{
+    border: solid #454138;
+    border-width: 0.1rem 0 ;
+}
+footer .row .right-footer a{
+    color: #454138;
+    transition: all 0.2s ease;
+}
+footer .row .right-footer a:hover{
+    color: #c0bcb1;
+}
