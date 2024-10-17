@@ -74,3 +74,18 @@ footer .row .right-footer a{
 footer .row .right-footer a:hover{
     color: #c0bcb1;
 }
+@media only screen and (max-width: 170px) {
+    .navbar{
+        height: 20px;
+    }
+    .navbar img{
+        width: 1px;
+        height: 11px;
+    }
+    .navbar .container-fluid>span{
+        display: none;
+    }
+    html{
+        font-size: 9px;
+    }
+}

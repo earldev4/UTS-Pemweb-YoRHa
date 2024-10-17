@@ -71,3 +71,21 @@ footer .row .right-footer a:hover{
         font-size: 11px;
     }
 } 
+@media only screen and (max-width: 170px) {
+    section .row .table-section table{
+        font-size: 6px;
+    }
+    .navbar{
+        height: 20px;
+    }
+    .navbar img{
+        width: 1px;
+        height: 11px;
+    }
+    .navbar .container-fluid>span{
+        display: none;
+    }
+    html{
+        font-size: 9px;
+    }
+}
